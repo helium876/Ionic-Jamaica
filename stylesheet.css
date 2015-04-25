@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100);
+
+
+html {
+  
+
+}
+h1{
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  color: #4e8ef7;
+  font-size: 100px;
+}
+
+h3{
+  text-align: center;
+  color: white;
+}
+.ion {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -47px;
+    margin-top: -47px;
+    border-radius: 100%;
+}
+
+
+
+.orbit {
+    -webkit-animation: spin-right 10s linear infinite;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    border: 3px solid #4e8ef7;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#bit {
+    border: 1px solid #4e8ef7;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #4e8ef7;
+    height: 25px;
+    width: 25px;
+    margin-left: 27px;
+    margin-top: 0px;
+    -webkit-animation: spin-left 8s linear infinite;
+}
+
+@-webkit-keyframes spin-right { 100% { -webkit-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin-left { 100% { -webkit-transform: rotate(-360deg); } }
