@@ -43,6 +43,7 @@ h3{
 
 .orbit {
     -webkit-animation: spin-right 10s linear infinite;
+    -moz-animation: spin-right 10s linear infinite;
     position: absolute;
     height: 200px;
     width: 200px;
@@ -64,8 +65,13 @@ h3{
     margin-left: 27px;
     margin-top: 0px;
     -webkit-animation: spin-left 8s linear infinite;
+    -moz-animation: spin-left 8s linear infinite;
 }
 
 @-webkit-keyframes spin-right { 100% { -webkit-transform: rotate(360deg); } }
 
 @-webkit-keyframes spin-left { 100% { -webkit-transform: rotate(-360deg); } }
+
+@-moz-keyframes spin-right { 100% { -moz-transform: rotate(360deg); } }
+
+@-moz-keyframes spin-left { 100% { -moz-transform: rotate(-360deg); } }
