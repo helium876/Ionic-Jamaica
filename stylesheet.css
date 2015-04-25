@@ -2,14 +2,14 @@
 
 
 html {
-
+  background-color: #3374DD;
 
 }
 h1{
   text-align: center;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 100;
-  color: #4e8ef7;
+  color: #BFD3F3;
   font-size: 100px;
 }
 
@@ -17,7 +17,7 @@ h3{
   text-align: center;
   color: white;
 }
-.ion {
+#ion {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -27,7 +27,7 @@ h3{
     margin-top: -47px;
     border-radius: 100%;
 }
-
+/*
 .black{
   color: black;
 }
@@ -39,7 +39,7 @@ h3{
 .green{
   color: green;
 }
-
+*/
 
 .orbit {
     -webkit-animation: spin-right 10s linear infinite;
@@ -50,16 +50,17 @@ h3{
     top: 50%;
     left: 50%;
     border-radius: 100%;
-    border: 3px solid #4e8ef7;
+    /*border: 3px solid #4e8ef7;*/
+    border: 3px solid #BFD3F3;
     margin-left: -100px;
     margin-top: -100px;
 }
 
 #bit {
-    border: 1px solid #4e8ef7;
+    border: 1px solid #BFD3F3;
     position: absolute;
     border-radius: 100%;
-    background-color: #4e8ef7;
+    background-color: #BFD3F3;
     height: 25px;
     width: 25px;
     margin-left: 27px;
