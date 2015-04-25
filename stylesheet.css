@@ -2,7 +2,7 @@
 
 
 html {
-  
+
 
 }
 h1{
@@ -28,6 +28,17 @@ h3{
     border-radius: 100%;
 }
 
+.black{
+  color: black;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.green{
+  color: green;
+}
 
 
 .orbit {
